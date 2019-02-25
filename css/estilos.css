@@ -5,22 +5,29 @@ propiedades
 valores */
 
 /* selector de etiqueta: header section article nav */
-header {
+/* header {
   background: pink;
   color: red;
-}
+} */
 
 /* selector descendente: elemento hijo de un elemento */
-body header div nav ol li a {
+/* body header div nav ol li a {
 
-}
+} */
 
 /* selector de id o selector de clase */
 /* selector de clase con punto(.) */
-.link {
+/* .link {
 
-}
+} */
 /* selector id (debe ser unico) */
-#portafolio {
+/* #portafolio {
 
+} */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
