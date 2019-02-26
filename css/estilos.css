@@ -32,11 +32,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   /* font-style: italic; */
 }
-
 h1 {
   font-size: 40px;
   line-height: 1.5;
   letter-spacing: -.2px;
   /* text-transform: uppercase; */
   /* text-decoration: underline; */
+}
+.hero {
+  height: 300px;
+}
+.project-details {
+  width: 500px;
+  height: 200px;
+}
+.project-imageContainer {
+  width: 500px;
+  height: 200px;
 }
