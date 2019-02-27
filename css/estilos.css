@@ -60,6 +60,8 @@ h1 {
   color: white;
   /* text-transform: uppercase; */
   /* text-decoration: underline; */
+  /* margin: top rigaht bottom left; */
+  margin: 100px 150px 70px 30px;
 }
 h1 strong {
   color: #026fff;
@@ -84,6 +86,11 @@ h1 strong {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px; */
+  /* margin collapsing: el de mayor absorve al menor */
+  margin-bottom: 15px;
+  /* margin-right
+  margin-left
+  margin-top */
 }
 .project-details {
   width: 500px;
