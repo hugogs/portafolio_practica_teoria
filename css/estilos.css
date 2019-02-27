@@ -26,6 +26,7 @@ valores */
 } */
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Fjalla One', sans-serif;
@@ -66,6 +67,10 @@ h1 {
 h1 strong {
   color: #026fff;
 }
+.portfolio {
+  background: #fafafa;
+  /* background: red; */
+}
 .project {
   /* asignar color a cada lado del borde
   border-top: 10px solid red;
@@ -87,10 +92,13 @@ h1 strong {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px; */
   /* margin collapsing: el de mayor absorve al menor */
+  margin: 10px;
   margin-bottom: 15px;
   /* margin-right
   margin-left
   margin-top */
+  padding: 20px;
+  background: white;
 }
 .project-details {
   width: 500px;
