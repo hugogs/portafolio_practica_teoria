@@ -64,6 +64,27 @@ h1 {
 h1 strong {
   color: #026fff;
 }
+.project {
+  /* asignar color a cada lado del borde
+  border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid pink; */
+  /* color: blue; */
+  /* detallar color por partes border: tamaño tipo estilo
+  border-top-color: red;
+  border-top-width: 15px;
+  border-top-style: solid; */
+  /* FORMA SIMPLIFLICADA: */
+  border: 1px solid gray;
+  /* Forma resumida */
+  border-radius: 10px;
+  /* Forma explicita:
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px; */
+}
 .project-details {
   width: 500px;
   /* height: 200px; */
