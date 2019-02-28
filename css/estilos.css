@@ -108,3 +108,15 @@ h1 strong {
   width: 500px;
   /* height: 200px; */
 }
+.flexbox {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid red;
+  flex-shrink: 0;
+}
