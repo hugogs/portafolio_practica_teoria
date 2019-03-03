@@ -41,7 +41,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1b2127;
   color: white;
   display: flex;
-  height: 90px;
+  height: 70px;
+  align-items: center;
   justify-content: space-between;
 }
 figure {
@@ -80,6 +81,8 @@ ol, ul {
   /* background-position: right; OTRA FORMA*/
   background-position-x: right;
   background-color: #1b2127;
+  display: flex;
+  align-items: center;
 }
 h1 {
   font-size: 40px;
@@ -89,7 +92,8 @@ h1 {
   /* text-transform: uppercase; */
   /* text-decoration: underline; */
   /* margin: top rigaht bottom left; */
-  margin: 100px 150px 70px 30px;
+  /* margin: 100px 150px 70px 30px; */
+  margin: 0;
 }
 h1 strong {
   color: #026fff;
@@ -150,3 +154,17 @@ h1 strong {
   flex-shrink: 0;
 }
 /* fin - teoria flexbox */
+.footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer img {
+  /* para imagenes dentro de un texto: */
+  vertical-align: middle;
+}
+.footer a {
+  color: white;
+}
