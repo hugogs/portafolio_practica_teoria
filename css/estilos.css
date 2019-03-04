@@ -101,6 +101,16 @@ h1 strong {
 .portfolio {
   background: #fafafa;
   /* background: red; */
+  padding: 20px;
+}
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* negrita a la fuente: */
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 .project {
   /* asignar color a cada lado del borde
@@ -123,17 +133,37 @@ h1 strong {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px; */
   /* margin collapsing: el de mayor absorve al menor */
-  margin: 10px;
+  /* margin: 10px; */
   margin-bottom: 15px;
   /* margin-right
   margin-left
   margin-top */
   padding: 20px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .project-details {
   width: 500px;
   /* height: 200px; */
+}
+.project-title{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.project-course, .project-date, .project-url{
+  margin: 10px 0;
+}
+/* .project-date{
+  margin: 10px 0;
+} */
+.project strong{
+  font-family: 'Fjalla One', sans-serif;
+}
+.project-description{
+  font-size: 20px;
 }
 .project-imageContainer {
   width: 500px;
