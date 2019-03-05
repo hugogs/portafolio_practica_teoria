@@ -169,6 +169,48 @@ h2 {
   width: 500px;
   /* height: 200px; */
 }
+.event-list-title{
+  margin-left: 10px;
+}
+.event-list {
+  display: flex;
+}
+.event{
+  /* border: 1px solid red; */
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  /* si el elemento se desborda, se oculta */
+  overflow: hidden;
+  /* siempre ocupa el tamaño que se designa */
+  flex-shrink: 0;
+  background: #f4fbff;
+}
+.event img{
+  width: 480px;
+  height: 200px;
+  /* cambiar proporcion y quepa*/
+  object-fit: cover;
+}
+.event-detail{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  /* alineacion de texto */
+  text-align: center;
+}
+.event-description{
+  text-align: left;
+}
+.event-url{
+  color: #056fff;
+  border: 1px solid blue;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
 /* teoria de display flexbox */
 .flexbox {
   display: flex;
